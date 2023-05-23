@@ -1,0 +1,140 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: mistyrose;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    color: black;
+  }
+  
+  /* Header styles */
+  header {
+    color: black;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+    background-image: url(time-management.webp);
+    background-size: 1250px;
+    padding: 100px 0;
+    color:black
+  }
+  .img{
+    background-image: url("time-management.webp");
+    opacity: 0.5;
+  }
+  .hero h2 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    color: black;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: papayawhip;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    opacity:0.8;
+  }
+  
+  .btn:hover {
+    background-color: peachpuff;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 15x 0;
+  }
+  
+  section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature img {
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .feature h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact form styles */
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form textarea {
+    height: 100px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
